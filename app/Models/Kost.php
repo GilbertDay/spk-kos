@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Kost extends Model
 {
     protected $table = "data_kost";
+    protected $primaryKey = 'id_kost';
 }

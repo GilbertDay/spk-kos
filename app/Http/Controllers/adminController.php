@@ -16,9 +16,4 @@ class adminController extends Controller
         $hasil = Hasil::all();
         return view('home', compact('jumkriteria','jumhimpunan','jumKost','hasil'));
     }
-
-    public function dataKos(){
-        $dataKost = Kost::all();
-        return view('dataKos', compact('dataKost'));
-    }
 }
